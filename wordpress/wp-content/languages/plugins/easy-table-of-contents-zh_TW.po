@@ -1,0 +1,536 @@
+# Translation of Plugins - Easy Table of Contents - Stable (latest release) in Chinese (Taiwan)
+# This file is distributed under the same license as the Plugins - Easy Table of Contents - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-05-20 16:12:46+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: zh_TW\n"
+"Project-Id-Version: Plugins - Easy Table of Contents - Stable (latest release)\n"
+
+#: includes/class.options.php:515
+msgid "This provides the same function as the Smooth Scroll Offset option above but applied when the user is visiting your site on a mobile device."
+msgstr "這項設定與 [平滑捲動偏移量] 相同，但設定值僅會套用至行動版網站。"
+
+#: includes/class.options.php:514
+msgid "Mobile Smooth Scroll Offset"
+msgstr "行動版平滑捲動偏移量"
+
+#: includes/class.options.php:355
+msgid "Heavy"
+msgstr "超粗體"
+
+#: includes/class.options.php:354
+msgid "Extra Bold"
+msgstr "特粗體"
+
+#: includes/class.options.php:353
+msgid "Bold"
+msgstr "粗體"
+
+#: includes/class.options.php:352
+msgid "Semi Bold"
+msgstr "半粗體"
+
+#: includes/class.options.php:351
+msgid "Medium"
+msgstr "中等"
+
+#: includes/class.options.php:350
+msgid "Normal"
+msgstr "標準"
+
+#: includes/class.options.php:349
+msgid "Light"
+msgstr "細體"
+
+#: includes/class.options.php:348
+msgid "Extra Light"
+msgstr "特細體"
+
+#: includes/class.options.php:347
+msgid "Thin"
+msgstr "超細體"
+
+#: includes/class.options.php:343
+msgid "Title Font Weight"
+msgstr "標題字型粗細"
+
+#: includes/class.options.php:336
+msgid "Title Font Size"
+msgstr "標題字型大小"
+
+#. Author of the plugin
+msgid "Steven A. Zahm"
+msgstr "Steven A. Zahm"
+
+#. Description of the plugin
+msgid "Adds a user friendly and fully automatic way to create and display a table of contents generated from the page content."
+msgstr "使用全自動及對使用者便利的方式，從頁面/文章的內容中產生並顯示內容目錄。"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "http://connections-pro.com/"
+msgstr "https://connections-pro.com/"
+
+#. Plugin Name of the plugin
+msgid "Easy Table of Contents"
+msgstr "Easy Table of Contents"
+
+#: includes/inc.admin-options-page.php:61
+msgid "Save Changes"
+msgstr "儲存設定"
+
+#: includes/inc.admin-options-page.php:45
+msgid "Advanced"
+msgstr "進階設定"
+
+#: includes/inc.admin-options-page.php:27
+msgid "Appearance"
+msgstr "內容目錄外觀"
+
+#: includes/inc.admin-options-page.php:9
+msgid "General"
+msgstr "一般設定"
+
+#: includes/class.widget-toc.php:362
+msgid "If you choose to affix the widget, do not add any other widgets on the sidebar. Also, make sure you have only one instance Table of Contents widget on the page."
+msgstr "如果要將 [內容目錄] 小工具釘選在資訊欄上的固定位置，請不要在同一個資訊欄使用其他小工具，且同一個頁面中只能有一個 [內容目錄] 小工具執行實體。"
+
+#: includes/class.widget-toc.php:358
+msgid "Affix or pin the widget."
+msgstr "將小工具釘選在資訊欄上的固定位置"
+
+#: includes/class.widget-toc.php:350
+msgid "Active Section Highlight Color:"
+msgstr "閱讀區域醒目提示色彩:"
+
+#: includes/class.widget-toc.php:343
+msgid "Title"
+msgstr "標題"
+
+#: includes/class.widget-toc.php:22
+msgid "Display the table of contents."
+msgstr "用來顯示內容目錄的小工具。"
+
+#: includes/class.options.php:793
+msgid "The callback function used for the <strong>%s</strong> setting is missing."
+msgstr "遺漏用於 <strong>%s</strong> 設定的回呼函式。"
+
+#: includes/class.options.php:541
+msgid "Eg: .widget-area or #sidebar"
+msgstr "範例: <code>.widget-area</code> 或 <code>#sidebar</code>"
+
+#: includes/class.options.php:540
+msgid "Since every theme is different, this can not be determined automatically. If you are unsure how to find the sidebar's class or id, please ask the theme's support persons."
+msgstr "由於每個佈景主題的 CSS 樣式不盡相同，因此這個外掛無法自動偵測所需資訊。如果不了解如何找到目前使用的佈景主題的資訊欄 class 或 id，請聯絡佈景主題開發者。"
+
+#: includes/class.options.php:539
+msgid "To enable the option to affix or pin the Table of Contents widget enter the theme's sidebar class or id."
+msgstr "如需啟用這項功能，請輸入使用中的佈景主題的資訊欄 CSS 的 class 或 id，便能將 [內容目錄] 小工具釘選在資訊欄上的固定位置。"
+
+#: includes/class.options.php:538
+msgid "Widget Affix Selector"
+msgstr "小工具釘選選擇器"
+
+#: includes/class.options.php:532
+msgid "Eg: i, toc_index, index, _"
+msgstr "範例: <code>i</code>、<code>toc_index</code>、<code>index</code>、<code>_</code>"
+
+#: includes/class.options.php:531
+msgid "This option normally applies to content written in character sets other than ASCII."
+msgstr "這項設定會自動套用至<code>不是</code>以 ASCII 字元集撰寫的網站內容。"
+
+#: includes/class.options.php:530
+msgid "Anchor targets are restricted to alphanumeric characters as per HTML specification (see readme for more detail). The default anchor prefix will be used when no characters qualify. When left blank, a number will be used instead."
+msgstr "這個外掛所產生的錨點目標遵循 HTML 規範，因此只能使用數字或英文字母 (參閱 Readme 以進一步了解)。如果標題中不包含字母可用字元，便會使用預設錨點前置詞；如果欄位留空，則會使用數字作為錨點前置詞。"
+
+#: includes/class.options.php:529
+msgid "Default Anchor Prefix"
+msgstr "預設錨點前置詞"
+
+#: includes/class.options.php:524
+msgid "Eg: /wiki/, /corporate/annual-reports/"
+msgstr "範例: <code>/wiki/</code>、<code>/corporate/annual-reports/</code>"
+
+#: includes/class.options.php:523
+msgid "Restrict generation of the table of contents to pages that match the required path. This path is from the root of your site and always begins with a forward slash."
+msgstr "僅有符合上方設定欄位中指定路徑的頁面，才會產生內容目錄；指定路徑從網站根目錄起始，且必須以斜線 <code>/</code> 開始。"
+
+#: includes/class.options.php:522
+msgid "Limit Path"
+msgstr "限制路徑"
+
+#: includes/class.options.php:507
+msgid "If you have a consistent menu across the top of your site, you can adjust the top offset to stop the headings from appearing underneath the top menu. A setting of 30 accommodates the WordPress admin bar. This setting only has an effect after you have enabled Smooth Scroll option."
+msgstr "如果網站最上方有固定選單，調整偏移量便能防止內容標題顯示黏附於選單下面。建議值 30 可容納 WordPress 管理選單。在上方啟用 [平滑捲動] 後，這項設定才會生效。"
+
+#: includes/class.options.php:506
+msgid "Smooth Scroll Offset"
+msgstr "平滑捲動偏移量"
+
+#: includes/class.options.php:458
+msgid "Prevent the loading the core CSS styles. When selected, the appearance options from above will be ignored."
+msgstr "防止載入這個外掛的 CSS 樣式。啟用這項設定後，上方的 [內容目錄外觀] 中的設定均不會生效"
+
+#: includes/class.options.php:457
+msgid "CSS"
+msgstr "停用 CSS"
+
+#: includes/class.options.php:451
+msgid "Show the table of contents for qualifying items on the homepage."
+msgstr "啟用這項設定後，首頁中符合條件的項目便會顯示為內容目錄"
+
+#: includes/class.options.php:450
+msgid "Homepage"
+msgstr "首頁顯示內容目錄"
+
+#: includes/class.options.php:444
+msgid "Use - rather than _ in anchors."
+msgstr "啟用這項設定後，在錨點中會使用連字號 <code>-</code>，而不使用底線 <code>_</code>"
+
+#: includes/class.options.php:443
+msgid "Hyphenate"
+msgstr "使用連字號"
+
+#: includes/class.options.php:437
+msgid "Ensure anchors are in lowercase."
+msgstr "啟用這項設定後，便能確保全部錨點為小寫"
+
+#: includes/class.options.php:436
+msgid "Lowercase"
+msgstr "錨點小寫"
+
+#: includes/class.options.php:424
+msgid "Link Visited Color"
+msgstr "已點擊連結色彩"
+
+#: includes/class.options.php:417
+msgid "Link Hover Color"
+msgstr "游標暫留連結色彩"
+
+#: includes/class.options.php:410
+msgid "Link Color"
+msgstr "連結色彩"
+
+#: includes/class.options.php:403
+msgid "Title Color"
+msgstr "標題色彩"
+
+#: includes/class.options.php:396
+msgid "Border Color"
+msgstr "框線色彩"
+
+#: includes/class.options.php:389
+msgid "Background Color"
+msgstr "背景色彩"
+
+#: includes/class.options.php:384
+msgid "For the following settings to apply, select the Custom Theme option."
+msgstr "請先將 [外觀樣式] 設定為 [自訂]，以下設定才會生效。"
+
+#: includes/class.options.php:383
+msgid "Custom Theme"
+msgstr "自訂外觀樣式"
+
+#: includes/class.options.php:376
+msgid "Transparent"
+msgstr "透明"
+
+#: includes/class.options.php:375
+msgid "Black"
+msgstr "黑色"
+
+#: includes/class.options.php:374
+msgid "White"
+msgstr "白色"
+
+#: includes/class.options.php:373
+msgid "Light Blue"
+msgstr "淺藍色"
+
+#: includes/class.options.php:372
+msgid "Grey"
+msgstr "灰色"
+
+#: includes/class.options.php:369
+msgid "The theme is only applied to the table of contents which is auto inserted into the post. The Table of Contents widget will inherit the theme widget styles."
+msgstr "外觀樣式僅會套用至已自動插入內容目錄的內容類型，而 [內容目錄] 小工具的樣式則會繼承目前使用的佈景主題的小工具樣式。"
+
+#: includes/class.options.php:368
+msgid "Theme"
+msgstr "外觀樣式"
+
+#: includes/class.options.php:361
+msgid "Font Size"
+msgstr "字型大小"
+
+#: includes/class.options.php:330
+msgid "Right"
+msgstr "靠右"
+
+#: includes/class.options.php:329
+msgid "Left"
+msgstr "靠左"
+
+#: includes/class.options.php:328
+msgid "None (Default)"
+msgstr "無 (預設)"
+
+#: includes/class.options.php:324
+msgid "Float"
+msgstr "內容目錄對齊方式"
+
+#: includes/class.options.php:318
+msgid "Select the User Defined option from the Width option to utilitze the custom width."
+msgstr "<br/>在上方 [寬度] 下拉式選單中選取 [使用者自訂] 後，這項設定才會生效。"
+
+#: includes/class.options.php:317
+msgid "Custom Width"
+msgstr "自訂寬度"
+
+#: includes/class.options.php:309
+msgid "User Defined"
+msgstr "使用者自訂"
+
+#: includes/class.options.php:307 includes/class.options.php:377
+msgid "Custom"
+msgstr "自訂"
+
+#: includes/class.options.php:295
+msgid "Relative"
+msgstr "相對寬度"
+
+#: includes/class.options.php:281
+msgid "Fixed"
+msgstr "固定寬度"
+
+#: includes/class.options.php:276
+msgid "Width"
+msgstr "寬度"
+
+#: includes/class.options.php:264
+msgid "Smooth Scroll"
+msgstr "平滑捲動"
+
+#: includes/class.options.php:258
+msgid "None"
+msgstr "無"
+
+#: includes/class.options.php:257
+msgid "Roman"
+msgstr "羅馬數字"
+
+#: includes/class.options.php:256
+msgid "Numeric"
+msgstr "整數"
+
+#: includes/class.options.php:255
+msgid "Decimal (default)"
+msgstr "小數 (預設)"
+
+#: includes/class.options.php:251
+msgid "Counter"
+msgstr "標題層級編號"
+
+#: includes/class.options.php:244
+msgid "Show as Hierarchy"
+msgstr "顯示內容目錄層級"
+
+#: includes/class.options.php:238
+msgid "Initially hide the table of contents."
+msgstr "預設隱藏內容目錄"
+
+#: includes/class.options.php:237
+msgid "Initial View"
+msgstr "預設顯示方式"
+
+#: includes/class.options.php:217
+msgid "Allow the user to toggle the visibility of the table of contents."
+msgstr "開放使用者切換顯示/隱藏內容目錄"
+
+#: includes/class.options.php:216
+msgid "Toggle View"
+msgstr "顯示/隱藏內容目錄"
+
+#: includes/class.options.php:212
+msgid "Contents"
+msgstr "內容目錄"
+
+#: includes/class.options.php:210
+msgid "Eg: Contents, Table of Contents, Page Contents"
+msgstr "範例: 內容、內容目錄、頁面內容"
+
+#: includes/class.options.php:209
+msgid "Header Label"
+msgstr "標題標籤"
+
+#: includes/class.options.php:203
+msgid "Show header text above the table of contents."
+msgstr "在內容目錄上方顯示標題標籤"
+
+#: includes/class.options.php:202
+msgid "Display Header Label"
+msgstr "顯示標題標籤"
+
+#: includes/class.options.php:195
+msgid "or more headings are present"
+msgstr "個 (含) 以上的標題在內文中出現時"
+
+#: includes/class.options.php:194
+msgid "Show when"
+msgstr "顯示條件"
+
+#: includes/class.options.php:187
+msgid "Bottom"
+msgstr "內文最下方"
+
+#: includes/class.options.php:186
+msgid "Top"
+msgstr "內文最上方"
+
+#: includes/class.options.php:185
+msgid "After first heading"
+msgstr "內文第一個標題後"
+
+#: includes/class.options.php:184
+msgid "Before first heading (default)"
+msgstr "內文第一個標題前 (預設)"
+
+#: includes/class.options.php:181
+msgid "Choose where where you want to display the table of contents."
+msgstr "<br/>設定內容目錄的顯示位置。"
+
+#: includes/class.options.php:180
+msgid "Position"
+msgstr "顯示位置"
+
+#: includes/class.options.php:173
+msgid "NOTE: The table of contents will only be automatically inserted on post types for which it has been enabled."
+msgstr "<strong>注意:</strong> 內容目錄<strong>僅</strong>會自動插入至<strong>已啟用內容目錄功能</strong>的內容類型。"
+
+#: includes/class.options.php:172
+msgid "Select the post types which will have the table of contents automatically inserted."
+msgstr "在上方選取的內容類型會自動插入內容目錄。"
+
+#: includes/class.options.php:171
+msgid "Auto Insert"
+msgstr "需要自動插入內容目錄的內容類型"
+
+#: includes/class.options.php:164
+msgid "Select the post types to enable the support for table of contents."
+msgstr "在上方選取的內容類型會自動啟用內容目錄功能。"
+
+#: includes/class.options.php:163
+msgid "Enable Support"
+msgstr "需要啟用內容目錄的內容類型"
+
+#: includes/class.options.php:501 includes/class.admin.php:315
+msgid "<strong>Note:</strong> This is not case sensitive."
+msgstr "<strong>注意:</strong> 字元<strong>不</strong>區分大小寫。"
+
+#: includes/class.options.php:499 includes/class.admin.php:313
+msgid "<code>Apple Tree|Oranges|Yellow Bananas</code> Ignore headings that are exactly \"Apple Tree\", \"Oranges\" or \"Yellow Bananas\"."
+msgstr "<code>蘋果樹|橘子|香蕉</code> 內容目錄會排除與<strong>「蘋果樹」</strong>、<strong>「橘子」</strong>或<strong>「香蕉」</strong>完全相符的標題"
+
+#: includes/class.options.php:498 includes/class.admin.php:312
+msgid "<code>*Fruit Diet*</code> Ignore headings with \"Fruit Diet\" somewhere in the heading."
+msgstr "<code>*水果飲食*</code> 內容目錄會排除文字中包含<strong>「水果飲食」</strong>的標題"
+
+#: includes/class.options.php:497 includes/class.admin.php:311
+msgid "<code>Fruit*</code> Ignore headings starting with \"Fruit\"."
+msgstr "<code>水果*</code> 內容目錄會排除以<strong>「水果」</strong>開頭的標題"
+
+#: includes/class.options.php:487 includes/class.admin.php:292
+msgid "Specify headings to be excluded from appearing in the table of contents. Separate multiple headings with a pipe <code>|</code>. Use an asterisk <code>*</code> as a wildcard to match other text."
+msgstr "這項設定能指定要在內容目錄中排除的標題。如有多個標題需要排除，請以直立線符號 (豎線) <code>|</code> 分隔。<br/>排除標題時使用星號 <code>*</code> 作為萬用字元，便能排除更多條件相符的標題。"
+
+#: includes/class.options.php:486 includes/class.admin.php:286
+msgid "Exclude Headings"
+msgstr "排除的標題"
+
+#: includes/class.admin.php:279
+msgid "<strong>Note:</strong> This is case sensitive."
+msgstr "<strong>注意:</strong> 字元區分大小寫。"
+
+#: includes/class.admin.php:277
+msgid "<code>Level [1.1]|Alternate TOC Header</code> Replaces Level [1.1] in the table of contents with Alternate TOC Header."
+msgstr "<code>神奇寶貝|寶可夢</code> 內容目錄會以替代標題「寶可夢」取代原始標題「神奇寶貝」"
+
+#: includes/class.options.php:495 includes/class.admin.php:275
+#: includes/class.admin.php:309
+msgid "Examples:"
+msgstr "範例:"
+
+#: includes/class.admin.php:258
+msgid "Specify alternate table of contents header string. Add the header to be replaced and the alternate header on a single line separated with a pipe <code>|</code>. Put each additional original and alternate header on its own line."
+msgstr "這項設定能指定內容目錄替代標題文字，請以直立線符號 (豎線) <code>|</code> 分隔要進行取代的標題及替代標題；如有多個標題需要取代，請每一行輸入一組原始標題及替代標題。"
+
+#: includes/class.admin.php:252
+msgid "Alternate Headings"
+msgstr "替代標題"
+
+#: includes/class.options.php:480 includes/class.admin.php:242
+msgid "Heading 6 (h6)"
+msgstr "標題 6 (h6)"
+
+#: includes/class.options.php:479 includes/class.admin.php:241
+msgid "Heading 5 (h5)"
+msgstr "標題 5 (h5)"
+
+#: includes/class.options.php:478 includes/class.admin.php:240
+msgid "Heading 4 (h4)"
+msgstr "標題 4 (h4)"
+
+#: includes/class.options.php:477 includes/class.admin.php:239
+msgid "Heading 3 (h3)"
+msgstr "標題 3 (h3)"
+
+#: includes/class.options.php:476 includes/class.admin.php:238
+msgid "Heading 2 (h2)"
+msgstr "標題 2 (h2)"
+
+#: includes/class.options.php:475 includes/class.admin.php:237
+msgid "Heading 1 (h1)"
+msgstr "標題 1 (h1)"
+
+#: includes/class.options.php:472 includes/class.admin.php:235
+msgid "Select the heading to consider when generating the table of contents. Deselecting a heading will exclude it."
+msgstr "在上方選取的標題層級便會納入內容目錄中，而未選取的標題層級則會予以排除。"
+
+#: includes/class.options.php:471 includes/class.admin.php:229
+msgid "Headings:"
+msgstr "標題層級"
+
+#: includes/class.admin.php:220
+msgid "Using the advanced options below will override the global advanced settings."
+msgstr "一旦在個別內容編輯頁面中的 [進階設定] 進行設定，在該內容頁面中便會忽略全域進階設定，而套用這些個別。"
+
+#: includes/class.admin.php:218
+msgid "NOTE:"
+msgstr "注意:"
+
+#: includes/class.admin.php:211
+msgid "Advanced:"
+msgstr "進階設定:"
+
+#: includes/class.admin.php:199
+msgid "Insert table of contents."
+msgstr "插入內容目錄。"
+
+#: includes/class.admin.php:188
+msgid "Disable the automatic insertion of the table of contents."
+msgstr "停用自動插入內容目錄功能。"
+
+#: includes/class.admin.php:92 includes/class.admin.php:93
+#: includes/class.admin.php:145 includes/inc.admin-options-page.php:2
+#: includes/class.widget-toc.php:27
+msgid "Table of Contents"
+msgstr "內容目錄"
+
+#: includes/class.admin.php:60
+msgid "Settings"
+msgstr "設定"
